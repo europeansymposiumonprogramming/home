@@ -1,3 +1,5 @@
+
+
 <head>
 <title>ESOP - European Symposium on Programming</title>
 <style>
@@ -10,8 +12,42 @@ h1 {
   font-family: sans-serif
 }
 
+.menu {
+  float: left;
+  width: 150px;
+}
+
+.header {
+  background-color: red;
+}
+
+.menuitem {
+  height: 25px;
+  color:white;
+  background-color: blue;
+  text-align: center;
+  vertical-align: text-bottom;
+}
+
+.menuitemh {
+  height: 25px;
+  color: blue;
+  background-color: blue;
+  text-align: center;
+  vertical-align: text-bottom;
+}
+
+.menuitem a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  margin-left: 180px;
+}
 </style>
 </head>
+
 
 <h1>ESOP - European Symposium on Programming</h1>
 
@@ -19,61 +55,17 @@ h1 {
 <hr>
 </p>
 
-<table >
-  <tr valign=top>
-    <td>
+<div class="menu">
+  <a href="esop-home.html"> <div class="menuitem"> Home </div> </a> 
+ <a href="esop-submissions.html">  <div class="menuitem"> Submissions
+ </div> </a> 
+ <a href="esop-history.html">  <div class="menuitem"> History </div></a>
+<a href="esop-sc.html">   <div class="menuitem"> Steering Committee
+</div>  </a>
+<a href="esop-procs.html">  <div class="menuitemh"> Procedures </div> </a>
+</div>
 
-      <table>
-	 
-	<tr bgcolor="#0000FF" r>
-	  
-	  <td align=center>
-	    <a href="esop-home.html"> <h3> <p style="color:white"> 
-	    Home </h3>
-	    </a>
-	    </p>
-	  </td>
-	  
-	</tr>
-
-	<tr bgcolor="#0000FF" >
-	  <td align=center>
-	    <a href="esop-submissions.html">
-	    <h3><p style="color:white">Submissions</p></h3>
-	      </a>
-	  </td>
-	</tr>
-
-	<tr bgcolor="#0000FF">
-	  <td align=center >
-	    <a href="esop-history.html">
-	    <h3> <p style="color:white"> History </p> </h3>
-	    </a>
-	  </td>
-	</tr>
-	
-	<tr bgcolor="#FF0000" >
-	  <td align=center>
-	    <a href="esop-sc.html">
-	    <h3><p style="color:white">Steering Committee</p></h3>
-	    </a>
-	  </td>
-	  
-	</tr>
-
-	<tr bgcolor="#0000FF">
-	  <td align=center>
-	    <a href="esop-procs.html">
-	    <h3> <p style="color:white"> Procedures </p> </h3>
-	    </a>
-	  </td>
-	</tr>
-
-      </table>      
-      
-    </td>
-    <td>
- 
+<div class="container">
 
 <h2>Steering Committee</h2>
 The current composition of the Steering Committee is
@@ -119,6 +111,8 @@ Chair 2018, permanent member since 2020)</li>
 </tr>
 </table>
 
+</div>
 <p>
 <hr>
+updated (jun 2022)
 </p>

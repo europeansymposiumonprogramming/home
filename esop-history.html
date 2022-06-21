@@ -10,75 +10,60 @@ h1 {
   font-family: sans-serif
 }
 
+.menu {
+  float: left;
+  width: 150px;
+}
+
+.header {
+  background-color: red;
+}
+
+.menuitem {
+  height: 25px;
+  color:white;
+  background-color: blue;
+  text-align: center;
+  vertical-align: text-bottom;
+}
+
+.menuitemh {
+  height: 25px;
+  color: blue;
+  background-color: blue;
+  text-align: center;
+  vertical-align: text-bottom;
+}
+
+.menuitem a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  margin-left: 180px;
+}
 </style>
 </head>
 
 <h1>ESOP - European Symposium on Programming</h1>
+
 <p>
 <hr>
 </p>
+<div class="menu">
+  <a href="esop-home.html"> <div class="menuitem"> Home </div> </a> 
+ <a href="esop-submissions.html">  <div class="menuitem"> Submissions
+ </div> </a> 
+ <a href="esop-history.html">  <div class="menuitem"> History </div></a>
+<a href="esop-sc.html">   <div class="menuitem"> Steering Committee
+</div>  </a>
+<a href="esop-procs.html">  <div class="menuitemh"> Procedures </div> </a>
+</div>
 
-<table >
-  <tr valign=top>
-    <td>
+<div class="container">
 
-      <table>
-	 
-	<tr bgcolor="#0000FF" r>
-	  
-	  <td align=center>
-	    <a href="esop-home.html"> <h3> <p style="color:white"> 
-	    Home </h3>
-	    </a>
-	    </p>
-	  </td>
-	  
-	</tr>
-
-	<tr bgcolor="#0000FF" >
-	  <td align=center>
-	    <a href="esop-submissions.html">
-	    <h3><p style="color:white">Submissions</p></h3>
-	      </a>
-	  </td>
-	</tr>
-
-	<tr bgcolor="#FF0000">
-	  <td align=center >
-	    <a href="esop-history.html">
-	    <h3> <p style="color:white"> History </p> </h3>
-	    </a>
-	  </td>
-	</tr>
-	
-	<tr bgcolor="#0000FF" >
-	  <td align=center>
-	    <a href="esop-sc.html">
-	    <h3><p style="color:white">Steering Committee</p></h3>
-	    </a>
-	  </td>
-	  
-	</tr>
-
-	<tr bgcolor="#0000FF">
-	  <td align=center>
-	    <a href="esop-procs.html">
-	    <h3> <p style="color:white"> Procedures </p> </h3>
-	    </a>
-	  </td>
-	</tr>
-
-      </table>      
-
-      
-    </td>
-    <td>
-
-      <p>
-ESOP is a member conference of the <a href="http://etaps.org/">European Joint Conferences on Theory and Practice of Software</a> (ETAPS), which is the primary European forum for academic and industrial researchers working on topics relating to Software Science.
-</p> 
-
-      
+  
   <h2>Past and forthcoming editions</h2>
   <table>
 <tr><th>Edition</th>	  <th>Place</th>	                 	<th>Program Chair(s)</th>	<th>Acceptance rate</th></tr>
@@ -115,12 +100,9 @@ ESOP is a member conference of the <a href="http://etaps.org/">European Joint Co
 <tr><td>ESOP 1988</td><td>Nancy, France</td>	        <td>Harald Ganzinger</td>	<td>23/75</td></tr>
 <tr><td>ESOP 1986</td><td>Saarbr&uuml;cken, Germany</td><td>Bernard Robinet, Reinhard Wilhelm</td><td>28/100</td></tr>
 </table>
-  
-
-</td>
-</tr>
-</table>
+</div>
 
 <p>
 <hr>
+updated (jun 2022)
 </p>
