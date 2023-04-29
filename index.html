@@ -1,5 +1,5 @@
 <head>
-<title>ESOP - European Symposium on Programming Langugages and Systems</title>
+<title>ESOP - European Symposium on Programming</title>
 <style>
 * {
   font-family: Arial, Helvetica, sans-serif;
@@ -10,6 +10,39 @@ h1 {
   font-family: sans-serif
 }
 
+.menu {
+  float: left;
+  width: 150px;
+}
+
+.header {
+  background-color: red;
+}
+
+.menuitem {
+  height: 25px;
+  color:white;
+  background-color: blue;
+  text-align: center;
+  vertical-align: text-bottom;
+}
+
+.menuitemh {
+  height: 25px;
+  color: blue;
+  background-color: blue;
+  text-align: center;
+  vertical-align: text-bottom;
+}
+
+.menuitem a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  margin-left: 180px;
+}
 </style>
 </head>
 
@@ -18,66 +51,18 @@ h1 {
 <p>
 <hr>
 </p>
+<div class="menu">
+  <a href="esop-home.html"> <div class="menuitem"> Home </div> </a> 
+ <a href="esop-submissions.html">  <div class="menuitem"> Submissions
+ </div> </a> 
+ <a href="esop-history.html">  <div class="menuitem"> History </div></a>
+<a href="esop-sc.html">   <div class="menuitem"> Steering Committee
+</div>  </a>
+<a href="esop-procs.html">  <div class="menuitemh"> Procedures </div> </a>
+</div>
 
-<table >
-  <tr valign=top>
-    <td>
-
-      
-      <table>
-	 
-	<tr bgcolor="#FF0000" r>
-	  
-	  <td align=center>
-	    <a href="esop-home.html"> <h3> <p style="color:white"> 
-	    Home </h3>
-	    </a>
-	    </p>
-	  </td>
-	  
-	</tr>
-
-	<tr bgcolor="#0000FF" >
-	  <td align=center>
-	    <a href="esop-submissions.html">
-	    <h3><p style="color:white">Submissions</p></h3>
-	      </a>
-	  </td>
-	</tr>
-
-	<tr bgcolor="#0000FF">
-	  <td align=center >
-	    <a href="esop-history.html">
-	    <h3> <p style="color:white"> History </p> </h3>
-	    </a>
-	  </td>
-	</tr>
-	
-	<tr bgcolor="#0000FF" >
-	  <td align=center>
-	    <a href="esop-sc.html">
-	    <h3><p style="color:white">Steering Committee</p></h3>
-	    </a>
-	  </td>
-	  
-	</tr>
-
-	<tr bgcolor="#0000FF">
-	  <td align=center>
-	    <a href="esop-procs.html">
-	    <h3> <p style="color:white"> Procedures </p> </h3>
-	    </a>
-	  </td>
-	</tr>
-
-      </table>
-      
-    </td>
-    <td>
- 
-<h2>
-The conference
-</h2>
+<div class="container">
+<h2> The conference </h1>
 <p>
 ESOP is a member conference of the <a href="http://etaps.org/">European Joint Conferences on Theory and Practice of Software</a> (ETAPS), which is the primary European forum for academic and industrial researchers working on topics relating to Software Science.
 </p> 
@@ -111,9 +96,9 @@ See also the <a
 href="http://en.wikipedia.org/wiki/European_Symposium_on_Programming">Wikipedia
 page on ESOP</a>.
 
-</td>
-</tr>
-</table>
+</div>
+
 <p>
 <hr>
+updated (apr 2023)
 </p>
